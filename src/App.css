@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sheet {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+}
+
+.cell {
+  height: 30px;
+  margin: 1px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.colors {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
